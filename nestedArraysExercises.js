@@ -47,3 +47,10 @@ function rotate(array, num){
   }
 
   rotate([2,4,6,8,10,12,14], 3);
+
+/*Exercise 4:
+  Write a function called makeXOGrid which takes in two parameters, rows and columns, 
+  and returns an array of arrays with the number of values in each subarray equal to 
+  the columns parameter and the number of subarrays equal to the rows parameter. 
+  The values in the sub-arrays should switch between "X" and "O".
+  */
