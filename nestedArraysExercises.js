@@ -38,3 +38,12 @@ sumTotal(); //21
   For the value at the end of the array, rotate should move it back to the beginning.
   */
 
+function rotate(array, num){
+      for (let i=0; i<num; i++){
+          let item = array.pop();
+          array.unshift(item);
+      }
+      return array;
+  }
+
+  rotate([2,4,6,8,10,12,14], 3);
