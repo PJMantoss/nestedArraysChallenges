@@ -30,3 +30,16 @@ function sumTotal(){
 }
 
 sumTotal(); //21
+
+
+/* Exercise 3.
+Given the following array, write a function called countVowels, 
+which returns the count of all of the vowels in each string regardless of case.
+*/
+
+var nestedArr = [
+    "Elie",
+    ["Matt", ["Tim"]],
+    ["Colt", ["Whisky", ["Janey"], "Tom"]],
+    "Lorien"
+  ];
