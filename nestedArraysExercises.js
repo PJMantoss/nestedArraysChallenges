@@ -54,3 +54,26 @@ function rotate(array, num){
   the columns parameter and the number of subarrays equal to the rows parameter. 
   The values in the sub-arrays should switch between "X" and "O".
   */
+
+function makeXOGrid(rows, columns){
+      let result = [],
+          initialX = true;
+
+      for (let i=0; i<rows; i++){
+          
+        let subArr = []; 
+
+          for (let j=0; j < columns; j++){
+            if (initialX){
+                subArr.push('X');
+            } else {
+                subArr.push('O');
+            }
+              initialX = !initialX;
+          }
+          result.push(subArr);
+      }
+      return result;
+     }
+
+  makeXOGrid(2,3);
