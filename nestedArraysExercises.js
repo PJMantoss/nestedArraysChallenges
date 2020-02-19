@@ -32,14 +32,9 @@ function sumTotal(){
 sumTotal(); //21
 
 
-/* Exercise 3.
-Given the following array, write a function called countVowels, 
-which returns the count of all of the vowels in each string regardless of case.
-*/
+/*
+  Exercise 3: Write a function called rotate which takes an array and a number, 
+  and moves each element however many spaces the number is to the right. 
+  For the value at the end of the array, rotate should move it back to the beginning.
+  */
 
-var nestedArr = [
-    "Elie",
-    ["Matt", ["Tim"]],
-    ["Colt", ["Whisky", ["Janey"], "Tom"]],
-    "Lorien"
-  ];
